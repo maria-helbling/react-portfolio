@@ -1,0 +1,15 @@
+/* footer style */
+footer {
+    border-top: 3px solid hsl(45, 52%, 50%);
+    padding:2rem;
+}
+
+/* Changing social media icon styling */
+footer a {
+    color: hsl(45, 52%, 50%);
+    font-size: xx-large;
+}
+
+footer a:hover {
+    color: hsl(202, 100%, 38%);
+}

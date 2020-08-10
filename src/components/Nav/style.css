@@ -1,0 +1,23 @@
+/* navbar look */
+nav {
+    padding-left: 3rem;
+}
+
+.navbar-brand {
+    background-color:hsl(45, 52%, 90%) ;
+    color: hsl(202, 100%, 38%);
+    font-family: "presa";
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.top-bar {
+    color: hsl(202, 100%, 38%);
+    background-color: hsl(45, 52%, 90%);
+}
+
+
+.top-bar-right, .nav-link, .top-bar-right ul {
+    color: hsl(202, 100%, 38%);
+    background-color: hsl(45, 52%, 90%);
+}
