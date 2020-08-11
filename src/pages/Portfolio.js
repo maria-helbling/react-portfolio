@@ -1,25 +1,30 @@
 import React from 'react'
 import Card from '../components/Card'
+import Projects from '../projects.json'
 
 
 function Portfolio() {
     return (
         <>
-            <main class="grid-container">
+            <main className="grid-container">
 
-                <div class="grid-x">
-                    <div class="cell">
-                        <h2 class="mb-5">Selection of past projects</h2>
-                        <p class="mb-5"> This is an overview of the more interesting projects I have been involved in.
+                <div className="grid-x">
+                    <div className="cell">
+                        <h2 className="mb-5">Selection of past projects</h2>
+                        <p className="mb-5"> This is an overview of the more interesting projects I have been involved in.
                     Feel free to flip through.</p>
                     </div>
                 </div>
 
-                <div class="grid-x grid-margin-x grid-margin-y" >
+                <div className="grid-x grid-margin-x grid-margin-y" >
 
-                    <div class="cell medium-6 large-4 mb-4">
-                        <Card/>
-                    </div>
+                    
+                        {Projects.map(proj => (
+                            <div className="cell medium-6 large-4 mb-4">
+                        <Card proj={proj}/>
+                        </div>
+                        ))}
+                    
                 </div>
             </main>
         </>
