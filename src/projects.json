@@ -6,7 +6,6 @@
         "resources":["handlebars", "Materialize","jQuery","Sequelize","Express"],
         "myRole": "As part of a team of 4: drawing functionality, socket.io, part of the game algorithm.",
         "siteUrl":"https://drawscape.herokuapp.com",
-        "img":"drawscape.png",
         "description": "Live drawing and chat app utilising socket.io and createJS",
         "gitHub":"https://github.com/indyminhas/DrawScape"
     },
@@ -17,7 +16,6 @@
         "resources":["HTML5", "CSS","JavaScript","Bulma","jQuery"],
         "myRole": "As part of a team of 4: project management, javascript outside of API requests and data visualisation.",
         "siteUrl":"https://maria-helbling.github.io/travel-risk-2020/",
-        "img":"covidocity.png",
         "description": "Data app using various APIs and data visualisation",
         "gitHub":"https://github.com/maria-helbling/travel-risk-2020"
     },
@@ -28,7 +26,6 @@
         "resources":["HTML5", "CSS","JavaScript","Bootstrap"],
         "myRole": "This was a solo project to develop DOM manipulation and local storage usage skills.",
         "siteUrl":"https://maria-helbling.github.io/jscode-quiz-game/",
-        "img":"quizgame.png",
         "description": "A fun and interactive JavaScript quiz game for developers",
         "gitHub":"https://github.com/maria-helbling/jscode-quiz-game"
     },
@@ -39,7 +36,6 @@
         "resources":["HTML5", "CSS","JavaScript","Foundation"],
         "myRole": "This was a solo project to play around with server side APIs and test out Foundation framework.",
         "siteUrl":"https://maria-helbling.github.io/weather-dash/",
-        "img":"weather.png",
         "description": "Small weather widget showing current and forecast weather",
         "gitHub":"https://github.com/maria-helbling/weather-dash"
     }

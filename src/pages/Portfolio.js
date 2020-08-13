@@ -1,6 +1,10 @@
 import React from 'react'
 import Card from '../components/Card'
 import Projects from '../projects.json'
+import covidocity from '../assets/img/covidocity.png'
+import drawscape from '../assets/img/drawscape.png'
+import quizgame from '../assets/img/quizgame.png'
+import weather from '../assets/img/weather.png'
 
 
 function Portfolio() {
@@ -19,11 +23,20 @@ function Portfolio() {
                 <div className="grid-x grid-margin-x grid-margin-y" >
 
                     
-                        {Projects.map(proj => (
-                            <div className="cell medium-6 large-4 mb-4">
-                        <Card proj={proj}/>
+                        
+                        <div className="cell medium-6 large-4 mb-4">
+                            <Card proj={Projects[0]} img={drawscape}/>
                         </div>
-                        ))}
+                        <div className="cell medium-6 large-4 mb-4">
+                            <Card proj={Projects[1]} img={covidocity}/>
+                        </div>
+                        <div className="cell medium-6 large-4 mb-4">
+                            <Card proj={Projects[2]} img={quizgame}/>
+                        </div>
+                        <div className="cell medium-6 large-4 mb-4">
+                            <Card proj={Projects[3]} img={weather}/>
+                        </div>
+                        
                     
                 </div>
             </main>

@@ -7,9 +7,11 @@ footer {
 /* Changing social media icon styling */
 footer a {
     color: hsl(45, 52%, 50%);
-    font-size: xx-large;
+    font-size: 5rem;
+    margin-left: 1rem;
 }
 
 footer a:hover {
     color: hsl(202, 100%, 38%);
 }
+

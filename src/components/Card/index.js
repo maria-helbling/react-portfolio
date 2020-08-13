@@ -59,7 +59,7 @@ const handleClassToggle = () => {
                             <div className="cell">
                                 <div className="card-section">
                                     <a href={props.proj.siteUrl} target="blank">
-                                        <img src={"assets/img/"+props.proj.img} alt={"Screenshot of "+props.proj.title+" page"} />
+                                        <img src={props.img} alt={"Screenshot of "+props.proj.title+" page"} />
                                     </a>
                                 </div>
                                 <div className="card-section">
