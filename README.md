@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio site
 
-## Available Scripts
+This is a portfolio website built with React for developers, creatives and really anyone who needs a platform to present their work online in a simple, responsive website.
 
-In the project directory, you can run:
+[A deployed version can be viewed here.](https://mariahelbling.herokuapp.com/)
 
-### `npm start`
+## Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [About](#about)
+2. [Setup](#setup)
+3. [Credits](#credits)
+4. [License](#license)
+5. [Contributing](#contributing)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## About
 
-### `npm test`
+This portfolio site can be modified for use for anyone in need of a space to display their work online.
+Responsive design ensures that this web applications renders well on any screen.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It includes the home page for an image and a short intro about the subject of this page
 
-### `npm run build`
+![Screenshot of About page](Images/screenshot_about.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It includes a porfolio page with projects arranged in a grid pattern three to a row or stacked in case the screen is smaller than 576px.
+The layout allows for a descriptive title as well as direct external links to project sites or repos. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Screenshot of Portfolio page](Images/screenshot_portfolio.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application comes with a form type contact page with social media links
 
-### `npm run eject`
+![Screenshot of Contact page](Images/screenshot_contact.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Build
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* This site was uilt using React and in particular Create React App
+* The site is built using Foundation CSS framework. 
+   * See [Foundation documentation](https://get.foundation/sites/docs/) for customising the site with their provided options
+* FontAwesome is used for social media links. [Read more about fontAwesome use and installation here.](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Future plans
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [ ] Adding professional experience page
+- [ ] Adding skills page
 
-## Learn More
+## Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following commands:
+```
+git clone https://github.com/maria-helbling/portfolio-site.git
+npm start
+``` 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
+The colorscheme and title font were chosen and coordinated by @alreinson
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## License
 
-### Analyzing the Bundle Size
+Built by Maria Helbling
+This application is released under [MIT](assets/LICENSE.txt) license.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Contributing
 
-### Making a Progressive Web App
+To contribute to this application, create a pull request.
+Here are the steps needed for doing that:
+- Fork the repo
+- Create a feature branch (git checkout -b NAME-HERE)
+- Commit your new feature (git commit -m 'Add some feature')
+- Push your branch (git push)
+- Create a new Pull Request
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Following a code review, your feature will be merged.
